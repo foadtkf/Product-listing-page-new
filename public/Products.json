@@ -1,0 +1,92 @@
+[
+    {
+      "name": "Patient Ninja",
+      "image": "https://img.freepik.com/free-psd/isolated-grey-hoodie-front_125540-1234.jpg?w=2000",
+      "price": 885,
+      "category": "Hoodie",
+      "color": "Purple",
+      "size": "L",
+      "instock": true,
+      "available": 15
+    },
+    {
+      "name": "Patient Ninja",
+      "image": "https://cdn.shopify.com/s/files/1/0536/3594/0515/collections/1120x1200_collection_Formal-custom-made-white-shirts-men_large.jpg?v=1653051693",
+      "price": 933,
+      "category": "Shirt",
+      "color": "Yellow",
+      "size": "S",
+      "instock": false,
+      "available": 32
+    },
+    {
+      "name": "Patient Ninja",
+      "image": "https://cdn.shopify.com/s/files/1/0536/3594/0515/collections/1120x1200_collection_Formal-custom-made-white-shirts-men_large.jpg?v=1653051693",
+      "price": 957,
+      "category": "Shirt",
+      "color": "Red",
+      "size": "L",
+      "instock": false,
+      "available": 278
+    },
+    {
+      "name": "Ninja Slithouette",
+      "image": "https://cdn.shopify.com/s/files/1/0536/3594/0515/collections/1120x1200_collection_Formal-custom-made-white-shirts-men_large.jpg?v=1653051693",
+      "price": 818,
+      "category": "Shirt",
+      "color": "Purple",
+      "size": "S",
+      "instock": true,
+      "available": 94
+    },
+    {
+      "name": "Patient Ninja",
+      "image": "https://img.freepik.com/free-psd/isolated-grey-hoodie-front_125540-1234.jpg?w=2000",
+      "price": 541,
+      "category": "Hoodie",
+      "color": "Yellow",
+      "size": "XXL",
+      "instock": false,
+      "available": 276
+    },
+    {
+      "name": "Patient Ninja",
+      "image": "https://assets.ajio.com/medias/sys_master/root/h6c/heb/12913261084702/-1117Wx1400H-460235170-grey-MODEL.jpg",
+      "price": 618,
+      "category": "Pant",
+      "color": "Blue",
+      "size": "S",
+      "instock": false,
+      "available": 258
+    },
+    {
+      "name": "Ninja Slithouette",
+      "image": "https://img.freepik.com/free-psd/isolated-grey-hoodie-front_125540-1234.jpg?w=2000",
+      "price": 853,
+      "category": "Hoodie",
+      "color": "Blue",
+      "size": "S",
+      "instock": false,
+      "available": 83
+    },
+    {
+      "name": "Woo Ninja",
+      "image": "https://cdn.shopify.com/s/files/1/0536/3594/0515/collections/1120x1200_collection_Formal-custom-made-white-shirts-men_large.jpg?v=1653051693",
+      "price": 983,
+      "category": "Shirt",
+      "color": "Yellow",
+      "size": "XXL",
+      "instock": true,
+      "available": 142
+    },
+    {
+      "name": "Patient Ninja",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnuMLnNyzWLESfmaxXjPcq7yoC1n86Bb5-5P-P2eab7rN_b3ZtLLz4jICGhIdvh7o3SJc&usqp=CAU",
+      "price": 570,
+      "category": "Shorts",
+      "color": "Purple",
+      "size": "M",
+      "instock": false,
+      "available": 381
+    }
+  ]
