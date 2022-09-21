@@ -1,17 +1,21 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Products from "./Components/Products";
-import Leaflet from "./Components/Leaflet";
+import Products from "./Components/Products/Products";
+import Leaflet from "./Components/Maps_leaflet_maptiler/Leaflet";
 import Tasty from "./Components/Tasty";
+import Accordion from "./Components/Accordion/Accordion";
+import Tasty2 from "./Components/Tasty2";
 
 function App() {
   return (
     <div>
-      <Products />
+      {/* <Products />
+      <Leaflet /> */}
       {/* <div >
-        <Leaflet/>
       </div> */}
-      {/* <Tasty/> */}
+      <Tasty />
+      <Tasty2 />
+      {/* <Accordion /> */}
     </div>
   );
 }
