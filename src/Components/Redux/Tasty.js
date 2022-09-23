@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { bindActionCreators } from "redux";
-import * as actionCreators from "../State/actioncreators/index";
+import * as actionCreators from "../../State/actioncreators/index";
 
 const Tasty = () => {
   const dispatch = useDispatch();
