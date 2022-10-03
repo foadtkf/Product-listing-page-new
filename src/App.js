@@ -9,6 +9,7 @@ import Navbar from "./Components/Shared/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Mainpg from "./Components/Redux/Mainpg";
 import CSVTut from "./Components/CSVTut/CSVTut";
+import Dough from "./Components/GraphsCharts/Dough";
 
 function App() {
   return (
@@ -17,6 +18,18 @@ function App() {
       <Leaflet /> */}
       {/* <div >
       </div> */}
+      <div className="my-5  ">
+        <h1 className="text-9xl text-center text-black font-bold font-serif">
+          Not Average
+        </h1>
+      </div>
+      <div className="mt-[-6%]">
+        <h1 className="text-3xl text-center text-black font-bold font-serif">
+          <span className="text-red-600 bg-black px-3 pb-3 rounded-tl-box rounded-br-box">
+            Be Savage
+          </span>
+        </h1>
+      </div>
       <Navbar />
       <Routes>
         <Route path="/" element={<Mainpg />} />
@@ -24,6 +37,7 @@ function App() {
         <Route path="/accordion" element={<Accordion />} />
         <Route path="/maps" element={<Leaflet />} />
         <Route path="/csvtut" element={<CSVTut />} />
+        <Route path="/dough" element={<Dough />} />
       </Routes>
       {/* <Accordion /> */}
     </div>

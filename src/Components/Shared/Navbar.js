@@ -41,6 +41,13 @@ const Navbar = () => {
         >
           CSV-Tutorial
         </Link>
+        <Link
+          onClick={() => setVal(6)}
+          className={`tab tab-lg tab-lifted ${val === 6 && "tab-active"}`}
+          to="/dough"
+        >
+          DoughNut
+        </Link>
       </div>
     </div>
   );
