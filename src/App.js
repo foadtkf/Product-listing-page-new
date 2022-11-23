@@ -10,6 +10,7 @@ import { Route, Routes } from "react-router-dom";
 import Mainpg from "./Components/Redux/Mainpg";
 import CSVTut from "./Components/CSVTut/CSVTut";
 import Dough from "./Components/GraphsCharts/Dough";
+import FramerTest from "./Components/Framer/FramerTest";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/maps" element={<Leaflet />} />
         <Route path="/csvtut" element={<CSVTut />} />
         <Route path="/dough" element={<Dough />} />
+        <Route path="/framer" element={<FramerTest />} />
       </Routes>
       {/* <Accordion /> */}
     </div>

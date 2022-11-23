@@ -64,7 +64,7 @@ const Accordion = () => {
         <div className="">
           {collapse.map((col) => (
             <div className="collapse collapse-arrow rounded-lg my-[0.7%]">
-              <input type="checkbox" className="peer" />
+              <input type="checkbox" className="peer py-2" />
               <div className="collapse-title bg-[#f7f7f7] text-[#6e6c6c] peer-checked:bg-[#f4b50d] peer-checked:text-[#6e6c6c] font-bold border-l-4 border-[#f4b50d] rounded-lg">
                 {col.question}
               </div>

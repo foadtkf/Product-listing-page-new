@@ -48,6 +48,13 @@ const Navbar = () => {
         >
           DoughNut
         </Link>
+        <Link
+          onClick={() => setVal(7)}
+          className={`tab tab-lg tab-lifted ${val === 7 && "tab-active"}`}
+          to="/framer"
+        >
+          Framer
+        </Link>
       </div>
     </div>
   );
