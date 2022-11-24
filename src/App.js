@@ -11,6 +11,7 @@ import Mainpg from "./Components/Redux/Mainpg";
 import CSVTut from "./Components/CSVTut/CSVTut";
 import Dough from "./Components/GraphsCharts/Dough";
 import FramerTest from "./Components/Framer/FramerTest";
+import VideoBG from "./Components/PageWithVideoBG/VideoBG";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/csvtut" element={<CSVTut />} />
         <Route path="/dough" element={<Dough />} />
         <Route path="/framer" element={<FramerTest />} />
+        <Route path="/videobg" element={<VideoBG />} />
       </Routes>
       {/* <Accordion /> */}
     </div>

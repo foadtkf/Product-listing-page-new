@@ -55,6 +55,13 @@ const Navbar = () => {
         >
           Framer
         </Link>
+        <Link
+          onClick={() => setVal(8)}
+          className={`tab tab-lg tab-lifted ${val === 8 && "tab-active"}`}
+          to="/videobg"
+        >
+          VideoBG
+        </Link>
       </div>
     </div>
   );
