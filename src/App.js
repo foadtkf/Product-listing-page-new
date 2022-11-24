@@ -19,7 +19,7 @@ function App() {
       <Leaflet /> */}
       {/* <div >
       </div> */}
-      <div className="my-5  ">
+      <div className="py-5  ">
         <h1 className="text-9xl text-center text-black font-bold font-serif">
           Not Average
         </h1>
