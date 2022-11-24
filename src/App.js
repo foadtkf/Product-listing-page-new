@@ -14,18 +14,18 @@ import FramerTest from "./Components/Framer/FramerTest";
 
 function App() {
   return (
-    <div>
+    <div style={{ fontFamily: "Press Start 2P" }}>
       {/* <Products />
       <Leaflet /> */}
       {/* <div >
       </div> */}
       <div className="py-5  ">
-        <h1 className="text-9xl text-center text-black font-bold font-serif">
-          Not Average
+        <h1 className=" text-2xl md:text-9xl text-center text-black font-bold font-serif">
+          <span style={{ fontFamily: "Press Start 2P" }}>Not Average</span>
         </h1>
       </div>
       <div className="mt-[-6%]">
-        <h1 className="text-3xl text-center text-black font-bold font-serif">
+        <h1 className="text-sm md:text-3xl text-center text-black font-bold font-serif">
           <span className="text-red-600 bg-black px-3 pb-3 rounded-tl-box rounded-br-box">
             Be Savage
           </span>

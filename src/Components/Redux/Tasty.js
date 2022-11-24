@@ -8,11 +8,11 @@ const Tasty = () => {
   const { incValue, decValue } = bindActionCreators(actionCreators, dispatch);
   return (
     <div className=" mx-[20%] ">
-      <h1 className="text-9xl p-10 text-center font-bold">
-        <span className="text-white hover:text-red-500 hover:bg-black bg-primary rounded-full px-[8%]">
+      <h1 className="text-sm md:text-5xl p-10 text-center font-bold">
+        <span className="text-white hover:text-red-500 hover:bg-black bg-primary rounded-full px-[2%]">
           R
         </span>
-        edux practice
+        <span style={{ fontFamily: "Press Start 2P" }}>edux practice</span>
       </h1>
 
       <div className="flex justify-center">
@@ -24,7 +24,9 @@ const Tasty = () => {
         >
           +
         </button>
-        <h1>Add items</h1>
+        <h1 className="text-sm md:text-4xl">
+          <span style={{ fontFamily: "Press Start 2P" }}>Add items</span>
+        </h1>
         <button
           className="btn btn-primary btn-sm"
           onClick={() => {
