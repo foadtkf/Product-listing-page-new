@@ -12,10 +12,11 @@ import CSVTut from "./Components/CSVTut/CSVTut";
 import Dough from "./Components/GraphsCharts/Dough";
 import FramerTest from "./Components/Framer/FramerTest";
 import VideoBG from "./Components/PageWithVideoBG/VideoBG";
+import MapTest from "./Components/Maps_leaflet_maptiler/MapTest";
 
 function App() {
   return (
-    <div style={{ fontFamily: "Press Start 2P" }}>
+    <div>
       {/* <Products />
       <Leaflet /> */}
       {/* <div >
@@ -37,13 +38,16 @@ function App() {
         <Route path="/" element={<Mainpg />} />
         <Route path="/products" element={<Products />} />
         <Route path="/accordion" element={<Accordion />} />
-        <Route path="/maps" element={<Leaflet />} />
+        <Route path="/maps" element={<MapTest />} />
+        {/* <Route path="/maps" element={<MapTest />} /> */}
+        {/* <Route path="/maps" element={<Leaflet />} /> */}
         <Route path="/csvtut" element={<CSVTut />} />
         <Route path="/dough" element={<Dough />} />
         <Route path="/framer" element={<FramerTest />} />
         <Route path="/videobg" element={<VideoBG />} />
       </Routes>
       {/* <Accordion /> */}
+      {/* <MapTest /> */}
     </div>
   );
 }

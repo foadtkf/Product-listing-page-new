@@ -1,0 +1,9 @@
+.suggestions {
+    position: absolute;
+    z-index: 100000;
+    width: 50%;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  .leaflet-control-geocoder-form input {
+    color: black;}
